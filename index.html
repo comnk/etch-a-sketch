@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="container">
+        <div class="grid">
+        </div>
+    </div>
+    <div id="grid-options">
+        <input type="range" min="16" max="100" class="slider">
+        <p>Value: <span id="value"></span></p>
+        <button onclick="createGrid()">Create New Grid</button>
+        <button onclick="resetGrid()">Reset Grid</button>
+    </div>
+    <div id="choices">
+        Default <input type="radio" name="color-option">
+        <input type="radio" name="color-option" id="default"> Random
+        <input type="radio" name="color-option"> Color of Your Choice
+    </div>
+    <script src="script.js"></script>
+</body>
+</html>

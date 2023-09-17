@@ -1,0 +1,32 @@
+body {
+    background-color: gray;
+    display: flex;
+}
+
+.container {
+    background-color: #ffffff;
+    margin: 0;
+    display: grid;
+    width: 35vw;
+    height: 35vw;
+    box-sizing: content-box;
+}
+
+.grid-item {
+    background-color: rgba(255, 255, 255, 0.8);
+    border: 1px solid rgba(0, 0, 0, 0.4);
+}
+
+.grid-item.changed {
+    background-color: black;
+}
+
+#grid-options {
+    display: block;
+    padding-right: 25px;
+}
+
+#choices {
+    display: flex;
+    flex-direction: column;
+}
